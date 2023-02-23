@@ -1,0 +1,107 @@
+{
+	"lang_menu-title": "Cambiar idioma",
+
+	"h2-title": "Desarrollador Full-stack",
+
+	"nav-about": "Acerca de mí",
+	"nav-projects": "Proyectos",
+	"nav-skills": "Habilidades",
+	"nav-tools": "Herramientas",
+	"nav-studies": "Estudios",
+	"nav-experience": "Experiencia",
+	"nav-contact": "Contacto",
+
+    "h3-about_me": "Sobre Mí",
+		"p-about_me": "Soy un desarrollador full-stack con preferencia por el backend y me resultan amigables los frameworks autocontenidos tales como Laravel y Symfony.<br/>Estoy buscando encontrar un trabajo en el cual pueda poner a prueba mis habilidades y aprender y crecer más con cada proyecto.",
+
+	"projects-title": "Título",
+	"projects-description": "Descripción",
+	"projects-status": "Estado",
+	"projects-notes": "Notas",
+	"projects-screenshots": "Capturas",
+	
+	"h3-projects": "Proyectos",
+		"projects": [
+			{
+				"title": "Tienda de Instrumentos Musicales Corador",
+				"description": "Trabajo práctico especial de Web 2, 1º año 2º cuatrimestre de TUDAI, Universidad de Lobería",
+				"status": "Estable",
+				"notes": "Usa versión antigua de Smarty y prácticas PHP antiguas, funciona mejor en PHP 7",
+				"screenshots": ["thumb_corador_1.png", "thumb_corador_2.png", "thumb_corador_3.png"]
+			},
+			{
+				"title": "Marketplace de Soluciones Locales +i",
+				"description": "Mercado de proyectos de innovación local, por encargo de Red de Innovación Local (RIL)",
+				"status": "Inestable",
+				"notes": "Dependencias PHP y JS conflictivas, prácticas PHP antiguas, funciona hasta PHP 7 + MySQL 5",
+				"screenshots": ["thumb_marketplace_1.png", "thumb_marketplace_2.png", "thumb_marketplace_3.png"]
+			},
+			{
+				"title": "Portal RIL: Tablero de Estadísticas",
+				"description": "Medidor de estadísticas del portal municipal Portal RIL, por encargo de Red de Innovación Local (RIL)",
+				"status": "Estable",
+				"notes": "Prácticas PHP antiguas, funciona hasta PHP 7 + MySQL 5",
+				"screenshots": ["thumb_estadisticas_1.png", "thumb_estadisticas_2.png", "thumb_estadisticas_3.png"]
+			}
+		],
+	
+	"h3-languages": "Idiomas",
+		"langlist-es": "Español (Nativo)",
+		"langlist-en": "Inglés (Bilingüe)",
+
+	"h3-skills": "Habilidades",
+		"h4-pro_skills": "Habilidades profesionales",
+			"proskill_list-front": "Diseño y disposición frontend (vistas, estilos)",
+			"proskill_list-back": "Desarrollo backend (Model-View-Controller)",
+			"proskill_list-db": "Manejo de bases de datos (SQL)",
+		"h4-soft_skills": "Habilidades blandas",
+			"softskill_list-sc": "Auto crítica",
+			"softskill_list-lang": "Buen nivel de expresión y vocabulario",
+			"softskill_list-social": "Contactos y fuentes de información confiables",
+		"h4-other_skills": "Otras habilidades",
+			"otherskill_list-img": "Manipulación de imágenes",
+			"otherskill_list-vect": "Dibujo con vectores",
+			"otherskill_list-vid": "Edición de video",
+			"otherskill_list-mus": "Composición y producción musical",
+
+	"h3-tools": "Herramientas",
+		"h4-technologies": "Tecnologías",
+		"h4-software": "Software",
+
+	"studies-experience-institution": "Institución",
+	"studies-experience-career": "Carrera",
+	"studies-experience-workplace": "Lugar de trabajo",
+	"studies-experience-position": "Puesto",
+	"studies-experience-from": "Desde",
+	"studies-experience-to": "Hasta",
+
+	"h3-studies": "Estudios",
+		"studies": [
+			{
+				"institution": "UNICEN Lobería",
+				"career": "TUDAI (Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas)",
+				"from": "1 de Agosto, 2019",
+				"to": "Presente",
+				"image": "unicen.png",
+				"image_link": "https://www.unicen.edu.ar/"
+			}
+		],
+
+	"h3-experience": "Experiencia",
+		"jobs": [
+			{
+				"workplace": "Red de Innovación Local (RIL)",
+				"position": "Desarrollador full-stack",
+				"from": "20 de Septiembre, 2021",
+				"to": "31 de Enero, 2023",
+				"image": "ril.png",
+				"image_link": "https://www.redinnovacionlocal.org/"
+			}
+		],
+
+	"h3-contact": "Contacto",
+
+	"button-download_cv": "Descargar CV",
+
+	"file_cv": "doc/FranciscoHernandez_CV_Es.pdf"
+}

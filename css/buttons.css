@@ -1,0 +1,40 @@
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 4em;
+}
+
+.lang-btn, .lang-splash-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.lang-btn.indigo, .lang-splash-btn.indigo {
+    color: var(--white);
+    background: var(--indigo);
+    box-shadow: 0 0.5em #4411dd77;
+}
+.lang-btn.indigo:active, .lang-splash-btn.indigo:active {
+    padding: 1.125em 1em 0.875em 1em;    
+    box-shadow: 0 0.25em #4411dd77;
+}
+.lang-btn.red, .lang-splash-btn.red {
+    color: var(--black);
+    background: var(--red);
+    box-shadow: 0 0.5em #ee111177;
+}
+.lang-btn.red:active, .lang-splash-btn.red:active {    
+    padding: 1.125em 1em 0.875em 1em;
+    box-shadow: 0 0.25em #ee111177;
+}
+
+.lang-btn > .lang-btn-icon, .lang-splash-btn > .lang-btn-icon {
+    margin-right: 1ch;
+    height: 2ch;
+    width: auto;
+}

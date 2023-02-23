@@ -1,0 +1,108 @@
+{
+	"lang_menu-title": "Change language",
+
+	"h2-title": "Full-stack Developer",
+
+	"nav-about": "About me",
+	"nav-projects": "Projects",
+	"nav-skills": "Skills",
+	"nav-tools": "Tools",
+	"nav-studies": "Studies",
+	"nav-experience": "Experience",
+	"nav-contact": "Contact",
+
+    "h3-about_me": "About me",
+		"p-about_me": "I am a full-stack developer with a preference for backend and I'm fond of self-contained frameworks such as Laravel and Symfony.<br/>I am looking to find a job in which I can put my skills to test and learn and grow more with each project.",
+
+	"projects-title": "Title",
+	"projects-description": "Description",
+	"projects-status": "Status",
+	"projects-notes": "Notes",
+	"projects-screenshots": "Screenshots",
+
+	"h3-projects": "Projects",
+		"projects": [
+			{
+				"title": "Corador Musical Instrument Store",
+				"subtitle": "Special assignment for Web 2, 1st year 2nd term, TUDAI, Universidad de Lobería",
+				"status": "Stable",
+				"notes": "Uses old Smarty version and old PHP standards, works best in PHP 7",
+				"screenshots": ["thumb_corador_1.png", "thumb_corador_2.png", "thumb_corador_3.png"]
+			},
+			{
+				"title": "Marketplace of Local Solutions +i",
+				"subtitle": "Commissioned by Red de Innovación Local (RIL)",
+				"status": "Unstable",
+				"notes": "Conflicting PHP and JS libs, old PHP standards, works up to PHP 7 + MySQL 5",
+				"screenshots": ["thumb_marketplace_1.png", "thumb_marketplace_2.png", "thumb_marketplace_3.png"]
+			},
+			{
+				"title": "RIL Portal: Statistics Dashboard",
+				"subtitle": "Commissioned by Red de Innovación Local (RIL)",
+				"status": "Stable",
+				"notes": "Uses old PHP standards, works up to PHP 7 + MySQL 5",
+				"screenshots": ["thumb_estadisticas_1.png", "thumb_estadisticas_2.png", "thumb_estadisticas_3.png"]
+			}
+		],
+
+	"h3-languages": "Languages",
+		"langlist-es": "Spanish (Native)",
+		"langlist-en": "English (Bilingual)",
+
+	"h3-skills": "Skills",		
+		"h4-pro_skills": "Professional skills",
+			"proskill_list-front": "Frontend design and layout (views, styles)",
+			"proskill_list-back": "Backend development (MVC)",
+			"proskill_list-db": "Database handling (SQL)",
+		"h4-soft_skills": "Soft skills",
+			"softskill_list-sc": "Self critique",
+			"softskill_list-lang": "Good level of expression and vocabulary",
+			"softskill_list-social": "Reliable contacts and info sources",
+		"h4-other_skills": "Other skills",
+			"otherskill_list-img": "Image manipulation",
+			"otherskill_list-vect": "Vector drawing",
+			"otherskill_list-vid": "Video editing",
+			"otherskill_list-mus": "Musical composition and production",
+	
+	"h3-tools": "Tools",
+		"h4-technologies": "Technologies",
+		"h4-software": "Software",	
+
+	"studies-experience-institution": "Institution",
+	"studies-experience-career": "Career",
+	"studies-experience-workplace": "Workplace",
+	"studies-experience-position": "Position",
+	"studies-experience-from": "From",
+	"studies-experience-to": "To",
+
+	"h3-studies": "Studies",
+		"studies": [
+			{
+				"institution": "UNICEN Lobería",
+				"career": "TUDAI (Assistant's Degree in Application Development)",
+				"from": "1st of August, 2019",
+				"to": "Present",
+				"image": "unicen.png",
+				"image_link": "https://www.unicen.edu.ar/"
+			}
+		],
+
+	"h3-experience": "Experience",
+		"jobs": [
+			{
+				"workplace": "Red de Innovación Local (RIL)",
+				"position": "Full-stack developer",
+				"from": "20th of September, 2021",
+				"to": "31st of January, 2023",
+				"image": "ril.png",
+				"image_link": "https://www.redinnovacionlocal.org/"
+			}
+		],
+	
+
+	"h3-contact": "Contact",
+
+	"button-download_cv": "Download CV/Résumé",
+
+	"file_cv": "doc/FranciscoHernandez_CV_Resume_En.pdf"
+}

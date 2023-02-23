@@ -1,0 +1,85 @@
+:root {
+    --indigo: #4411dd;
+    --red: #ee1111;
+    --white: #eeeeee;
+    --black: #111111;
+    --button-box-shadow: '0 9px';
+}
+
+body {
+    font-family: 'Kanit', 'Tahoma', sans-serif;
+    margin: 0 0;
+}
+
+.lang-splash {
+    z-index: 1000;
+    background: #e0e7d7;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.lang-splash .menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    height: 75vh;
+}
+.lang-splash .menu > * {
+    margin: 1em 0;
+}
+
+/* Helper classes */
+
+.d-flex {display: flex;}
+.flex-row {flex-direction: row;}
+.flex-col {flex-direction: column;}
+
+.justify-content-around { justify-content: space-around;}
+.justify-content-center { justify-content: center;}
+.justify-content-between { justify-content: space-between;}
+.justify-content-start { justify-content: start;}
+.justify-content-end { justify-content: end;}
+.justify-content-flex-start { justify-content: flex-start;}
+.justify-content-flex-end { justify-content: flex-end;}
+.justify-content-stretch { justify-content: stretch;}
+.justify-content-baseline { justify-content: baseline;}
+
+.align-items-center { justify-content: center;}
+.align-items-start { justify-content: start;}
+.align-items-end { justify-content: end;}
+.align-items-flex-start { justify-content: flex-start;}
+.align-items-flex-end { justify-content: flex-end;}
+.align-items-stretch { justify-content: stretch;}
+.align-items-baseline { justify-content: baseline;}
+
+.width-100pr { width: 100%; }
+.height-100pr { height: 100%; }
+.width-100vw { width: 100vw; }
+.height-100vh { height: 100vh; }
+
+.nav-responsive .nav-responsive-ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 12em;
+    list-style-type: none;
+    list-style-position: inside;
+    justify-content: space-evenly;
+}
+
+@media only screen and(max-width: 900px) {
+    .nav-responsive .nav-responsive-ul {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
