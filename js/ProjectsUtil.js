@@ -18,22 +18,8 @@ function listProjectsFromJSON() {
 
                 // Create 'cell' to contain logo and link
                 let pseudo_cell = document.createElement('div');
-                pseudo_cell.classList.add('logo-cell');
-
-                // Create link to the institution
-                let logo_link = document.createElement('a');
-                logo_link.href = study_exp_obj.image_link;
-
-                // Create image to contain instution logo
-                let logo_img = document.createElement('img');
-                logo_img.src = 'img/' + img_folder + study_exp_obj.image;
-                logo_img.classList.add('study-exp-logo');
-
-                // Append the image to the link
-                logo_link.appendChild(logo_img);
-
-                // Add link with image in it to the 'cell'
-                pseudo_cell.appendChild(logo_link);
+                
+                // CHANGE
 
                 // Add logo 'cell' to entry 'row'
                 pseudo_row.appendChild(pseudo_cell);
