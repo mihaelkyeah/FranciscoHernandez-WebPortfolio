@@ -17,6 +17,8 @@
 	"projects-title": "Título",
 	"projects-description": "Descripción",
 	"projects-status": "Estado",
+	"projects-start": "Inicio",
+	"projects-end": "Finalización",
 	"projects-notes": "Notas",
 	"projects-screenshots": "Capturas",
 	
@@ -26,6 +28,8 @@
 				"title": "Tienda de Instrumentos Musicales Corador",
 				"description": "Trabajo práctico especial de Web 2, 1º año 2º cuatrimestre de TUDAI, Universidad de Lobería",
 				"status": "Estable",
+				"start": "Mayo de 2020",
+				"end": "Julio de 2020",
 				"notes": "Usa versión antigua de Smarty y prácticas PHP antiguas, funciona mejor en PHP 7",
 				"screenshots": ["thumb_corador_1.png", "thumb_corador_2.png", "thumb_corador_3.png"]
 			},
@@ -33,6 +37,8 @@
 				"title": "Marketplace de Soluciones Locales +i",
 				"description": "Mercado de proyectos de innovación local, por encargo de Red de Innovación Local (RIL)",
 				"status": "Inestable",
+				"start": "Diciembre de 2021",
+				"end": "Abril de 2022",
 				"notes": "Dependencias PHP y JS conflictivas, prácticas PHP antiguas, funciona hasta PHP 7 + MySQL 5",
 				"screenshots": ["thumb_marketplace_1.png", "thumb_marketplace_2.png", "thumb_marketplace_3.png"]
 			},
@@ -40,6 +46,8 @@
 				"title": "Portal RIL: Tablero de Estadísticas",
 				"description": "Medidor de estadísticas del portal municipal Portal RIL, por encargo de Red de Innovación Local (RIL)",
 				"status": "Estable",
+				"start": "Mayo de 2022",
+				"end": "Enero de 2023",
 				"notes": "Prácticas PHP antiguas, funciona hasta PHP 7 + MySQL 5",
 				"screenshots": ["thumb_estadisticas_1.png", "thumb_estadisticas_2.png", "thumb_estadisticas_3.png"]
 			}
